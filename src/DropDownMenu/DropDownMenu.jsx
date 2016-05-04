@@ -363,7 +363,7 @@ const DropDownMenu = React.createClass({
       }
     }
 
-    let displayValue = '';
+    let displayValue = 'LOL';
     if (menuItems) {
       const selectedItem = menuItems[selectedIndex];
       if (selectedItem) {
@@ -410,7 +410,7 @@ const DropDownMenu = React.createClass({
       >
         <ClearFix style={mergeStyles(styles.control)} onTouchTap={this._onControlTouchTap}>
           <div style={prepareStyles(muiTheme, mergeStyles(styles.label, open && styles.labelWhenOpen, labelStyle))}>
-            {displayValue}
+            {"!!!"}
           </div>
           <DropDownArrow style={mergeStyles(styles.icon, iconStyle)}/>
           <div style={prepareStyles(muiTheme, mergeStyles(styles.underline, underlineStyle))}/>
